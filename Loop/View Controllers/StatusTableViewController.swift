@@ -1304,7 +1304,8 @@ final class StatusTableViewController: ChartsTableViewController {
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if let testingScenariosManager = deviceManager.testingScenariosManager, testingScenariosManager.scenarioURLs.isEmpty {
             if motion == .motionShake {
-                presentScenarioSelector()
+                return
+                //presentScenarioSelector()
             }
         }
     }
