@@ -8,7 +8,7 @@ CaspianGeben/Loop har följande ändringar:
  
   WatchApp Extension/Controllers/BolusInterfaceController.swift är ändrad till att föreslå 100% av bolus i klockan istället för 75%
  
-  Loop/View Controllers/BolusViewController.swift är uppdaterad för att ta bort TouchID för bolus
+  Loop/View Controllers/BolusViewController.swift är uppdaterad för att ta bort TouchID för bolus (har lagt till false && på rad 201. ta bort det så kommer touchID för bolus tillbaka)
  
   Loop/View Controllers/StatusTableViewController.swift är uppdaterad för att få bort en debugskärm om man skakar telefonen
 
