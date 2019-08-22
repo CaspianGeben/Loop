@@ -1,0 +1,31 @@
+Saker som är ändrat i min repo:
+
+Rileylink_ios är uppdaterad till att ha beeps med vid bolus (adderat acknowledgementBeep: true, completionBeep: true, på rad 411 i dev/OmniKit/PumpManager/PodCommsSession.swift)
+
+CaspianGeben/Loop har följande ändringar:
+  
+  Cartfile pekar på CaspianGeben/rileyllink_ios istället för ps2/rileylink_ios för att få med beeps
+ 
+  WatchApp Extension/Controllers/BolusInterfaceController.swift är ändrad till att föreslå 100% av bolus i klockan istället för 75%
+ 
+  Loop/View Controllers/BolusViewController.swift är uppdaterad för att ta bort TouchID för bolus
+ 
+  Loop/View Controllers/StatusTableViewController.swift är uppdaterad för att få bort en debugskärm om man skakar telefonen
+
+i xcode har jag ändrat WatchApp extension, Under General, Scrolla längst ner och ändra ClockKit.Framework till Optional istället för Required. 
+    Det är till för att lösa ett problem med Apple Watch Series 0
+    
+
+Felmeddelandet "The folder “AdditionalAssets.xcassets” doesn’t exist." går att bortse ifrån
+
+Använd länken: https://github.com/CaspianGeben/Loop/tree/dev
+Ladda ner som Zip fil
+Packa upp och se till att den inte ligger på en icloud drive och att filnamnet inte mellanslag eller parenteser ()
+högerklicka på mappen och  välj Tjänster->Ny Terminal i mapp
+Skriv carthage update i terminalfönstret som öppnas
+ta en kaffe medans du väntar
+när det är klart öppna Loop.xcodeproj i mappen
+signa targets
+tryck på play
+    
+    
