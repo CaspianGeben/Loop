@@ -27,7 +27,7 @@ extension MealBolusNightscoutTreatment {
             myFoodType = "🌮, \(String(carbEntry.foodType!))";
         } else if (carbEntry.absorptionTime == 14400){
             myFoodType = "🍕, \(String(carbEntry.foodType!))";
-            
+        }    
        
         self.init(timestamp: carbEntry.startDate, enteredBy: "loop://\(UIDevice.current.name)", id: carbEntry.externalID, carbs: lround(carbGrams), absorptionTime: carbEntry.absorptionTime, foodType: myFoodType // + carbEntry.foodType
         )
