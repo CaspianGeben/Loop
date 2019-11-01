@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14865.1" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rNf-Mh-tID">
-    <device id="watch38"/>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14868" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rNf-Mh-tID">
+    <device id="watch42"/>
     <dependencies>
         <deployment identifier="watchOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14819.2"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14642"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14643"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
     </dependencies>
     <scenes>
@@ -17,11 +17,11 @@
                             <items>
                                 <group width="1" alignment="left" layout="vertical" spacing="3" id="hwe-wE-KAr">
                                     <items>
-                                        <group width="1" height="0.25" alignment="left" spacing="0.0" id="WLN-cX-0wl">
+                                        <group width="1" height="62" alignment="left" spacing="0.0" id="WLN-cX-0wl">
                                             <items>
-                                                <group width="22" height="22" alignment="left" verticalAlignment="center" radius="11" id="J90-Xm-Znp">
+                                                <group width="46" height="47" alignment="left" verticalAlignment="center" radius="11" id="J90-Xm-Znp">
                                                     <items>
-                                                        <button width="22" height="22" alignment="left" verticalAlignment="center" accessibilityLabel="Subtract" title="−" id="Dh9-HV-fXy">
+                                                        <button width="44" height="45" alignment="left" verticalAlignment="center" accessibilityLabel="Subtract" title="−" id="Dh9-HV-fXy">
                                                             <color key="titleColor" name="carbs"/>
                                                             <color key="backgroundColor" name="carbs-dark"/>
                                                             <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
@@ -31,13 +31,13 @@
                                                         </button>
                                                     </items>
                                                 </group>
-                                                <label height="37" alignment="center" text="--" id="CWt-7U-cnK">
+                                                <label height="49" alignment="center" text="--" id="CWt-7U-cnK">
                                                     <color key="textColor" name="carbs"/>
-                                                    <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                                                    <fontDescription key="font" type="boldSystem" pointSize="42"/>
                                                 </label>
-                                                <group width="22" height="22" alignment="right" verticalAlignment="center" radius="11" id="6ip-X6-F2J">
+                                                <group width="43" height="50" alignment="right" verticalAlignment="center" radius="11" id="6ip-X6-F2J">
                                                     <items>
-                                                        <button width="22" height="22" alignment="right" verticalAlignment="center" accessibilityLabel="Add" title="+" id="eu3-pj-GH3">
+                                                        <button width="41" height="46" alignment="right" verticalAlignment="center" accessibilityLabel="Add" title="+" id="eu3-pj-GH3">
                                                             <color key="titleColor" name="carbs"/>
                                                             <color key="backgroundColor" name="carbs-dark"/>
                                                             <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
@@ -49,10 +49,6 @@
                                                 </group>
                                             </items>
                                         </group>
-                                        <label alignment="center" text="10:09 AM" id="Ury-of-vQg">
-                                            <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
-                                            <fontDescription key="font" type="system" pointSize="15"/>
-                                        </label>
                                         <separator alignment="left" id="psX-Zk-dTM">
                                             <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
@@ -65,7 +61,7 @@
                                         </tapGestureRecognizer>
                                     </gestureRecognizers>
                                 </group>
-                                <group width="1" height="0.25" alignment="center" spacing="0.0" id="XMa-yL-87D">
+                                <group width="1" height="45" alignment="center" spacing="0.0" id="XMa-yL-87D">
                                     <items>
                                         <button width="0.33000000000000002" height="1" alignment="left" title="🍭" id="gAn-qe-OvX">
                                             <fontDescription key="font" type="system" pointSize="25"/>
@@ -97,6 +93,10 @@
                                         </button>
                                     </items>
                                 </group>
+                                <label height="8" alignment="center" text="10:09 AM" id="Ury-of-vQg">
+                                    <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                    <fontDescription key="font" type="system" pointSize="3"/>
+                                </label>
                                 <group width="1" alignment="center" verticalAlignment="bottom" id="Qa8-MQ-ht1">
                                     <items>
                                         <button width="1" height="40" alignment="left" verticalAlignment="bottom" title="Add Carbs" id="b6f-3I-jki">
@@ -124,7 +124,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="38" y="370"/>
+            <point key="canvasLocation" x="37.487179487179489" y="369.20512820512823"/>
         </scene>
         <!--Loop-->
         <scene sceneID="gQv-2Z-iCt">
@@ -301,9 +301,9 @@
                                     <items>
                                         <group width="1" alignment="left" spacing="0.0" id="xP1-tZ-vSS">
                                             <items>
-                                                <group width="22" height="22" alignment="left" verticalAlignment="center" radius="11" id="d24-et-2S4">
+                                                <group width="31" height="33" alignment="left" verticalAlignment="center" radius="11" id="d24-et-2S4">
                                                     <items>
-                                                        <button width="22" height="22" alignment="left" verticalAlignment="center" accessibilityLabel="Subtract" title="−" id="hjF-xr-cwO">
+                                                        <button width="32" height="34" alignment="left" verticalAlignment="center" accessibilityLabel="Subtract" title="−" id="hjF-xr-cwO">
                                                             <color key="titleColor" name="insulin"/>
                                                             <color key="backgroundColor" name="insulin-dark"/>
                                                             <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
@@ -317,9 +317,9 @@
                                                     <color key="textColor" name="insulin"/>
                                                     <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
                                                 </label>
-                                                <group width="22" height="22" alignment="right" verticalAlignment="center" radius="11" id="JXe-b7-7Ef">
+                                                <group width="27" height="34" alignment="right" verticalAlignment="center" radius="11" id="JXe-b7-7Ef">
                                                     <items>
-                                                        <button width="22" height="22" alignment="right" verticalAlignment="center" accessibilityLabel="Add" title="+" id="DZc-Gn-RLu">
+                                                        <button width="33" height="29" alignment="right" verticalAlignment="center" accessibilityLabel="Add" title="+" id="DZc-Gn-RLu">
                                                             <color key="titleColor" name="insulin"/>
                                                             <color key="backgroundColor" name="insulin-dark"/>
                                                             <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
@@ -371,7 +371,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="342" y="370"/>
+            <point key="canvasLocation" x="341.74358974358978" y="369.20512820512823"/>
         </scene>
         <!--Loop-->
         <scene sceneID="3Z2-ZE-636">
@@ -600,14 +600,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1-hour-graph" width="70" height="70"/>
-        <image name="2-hour-graph" width="70" height="70"/>
-        <image name="3-hour-graph" width="70" height="70"/>
-        <image name="bolus" width="44" height="44"/>
-        <image name="carbs" width="44" height="44"/>
-        <image name="loop_unknown" width="26" height="26"/>
-        <image name="pre-meal" width="44" height="44"/>
-        <image name="workout" width="44" height="44"/>
+        <image name="1-hour-graph" width="94.5" height="94.5"/>
+        <image name="2-hour-graph" width="93.5" height="93.5"/>
+        <image name="3-hour-graph" width="94.5" height="94.5"/>
+        <image name="bolus" width="52" height="52"/>
+        <image name="carbs" width="52" height="52"/>
+        <image name="loop_unknown" width="29" height="29"/>
+        <image name="pre-meal" width="52" height="52"/>
+        <image name="workout" width="52" height="52"/>
         <namedColor name="carbs">
             <color red="0.3880000114440918" green="0.85500001907348633" blue="0.2199999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
