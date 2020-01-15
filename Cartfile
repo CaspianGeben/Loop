@@ -5,3 +5,4 @@ github "LoopKit/dexcom-share-client-swift" ~> 1.2
 github "LoopKit/G4ShareSpy" ~> 1.1
 github "ps2/rileylink_ios" ~> 3.0
 github "LoopKit/Amplitude-iOS" "decreepify"
+github "ivalkou/NightscoutAPIClient" "master"
